@@ -90,7 +90,7 @@ static void visit(Task *task, Task **stack, const Options *options, RunState *st
         fputs(":\n", stdout);
         state->printed = true;
     }
-    if (options->show_blocks) {
+    if (options->long_format || (options->show_blocks && options->terminal)) {
         print_total(&entries, options);
         state->printed = true;
     }

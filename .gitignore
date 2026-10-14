@@ -1,5 +1,8 @@
-ls
+/ls
 *.o
+*.d
+*.dSYM/
+__pycache__/
 .DS_Store
 *~
 .vscode/
