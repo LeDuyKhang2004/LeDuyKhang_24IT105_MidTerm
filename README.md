@@ -19,7 +19,7 @@ make test
 make clean
 ```
 
-`make test` compiles the program and runs a smoke test covering long format, hidden files, classification, symlinks and recursive traversal. The program returns `0` when all operands succeed and a non-zero status if an operand or directory cannot be read.
+`make test` compiles the program and runs a smoke test covering long format, hidden files, classification, symlinks and recursive traversal. The program returns `0` when all operands succeed and a non-zero status if an operand or directory cannot be read. The code is compiled with strict warnings and portable POSIX feature macros on macOS and Linux.
 
 ## Project structure
 

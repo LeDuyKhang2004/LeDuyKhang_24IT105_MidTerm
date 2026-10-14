@@ -4,6 +4,7 @@
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
+#include <sys/types.h>
 #include <sys/stat.h>
 
 typedef enum { TIME_MTIME, TIME_ATIME, TIME_CTIME } TimeField;
